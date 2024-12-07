@@ -4,19 +4,17 @@ A simple command-line Rock Paper Scissors game implemented in C++ as a practice 
 
 ## Features
 - Play against computer opponent
-- Track current winning/losing streaks
-- Record maximum streak achieved
-- Simple terminal-based interface
-- Score tracking
+- Track current winning streaks
+- Game is on the terminal
 
 ## How to Play
 1. Run the program
 2. Choose your move by entering:
-   - 1 for Rock
-   - 2 for Paper
-   - 3 for Scissors
+   - R for Rock
+   - P for Paper
+   - S for Scissors
 3. Game will display the result and update streaks
-4. Press 'q' to quit or any other key to continue playing
+4. You will have the option to play again or quit
 
 ## Technical Details
 - Written in C++
