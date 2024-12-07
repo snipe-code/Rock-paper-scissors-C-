@@ -13,11 +13,11 @@ using std::cin;
 int main() {
 
     bool playing = true;
+    int streak = 0;
 
     while (playing){
         char pChoice = pChoice = getpChoice(pChoice);
         char cChoice = getcChoice(cChoice);
-        int streak = 0;
 
         displayChoices(pChoice, cChoice);
 
